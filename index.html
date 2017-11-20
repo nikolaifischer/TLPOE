@@ -15,7 +15,8 @@
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+          type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
@@ -25,110 +26,189 @@
 
 <body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <a class="navbar-brand" href="#page-top"><img id="logo" src="img/logo_white.png"></a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#music">Musik</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#live">Live</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Kontakt</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<!-- Facebook JS SDK -->
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = 'https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.11&appId=548326148648357';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-    <!-- Intro Header -->
-    <header class="masthead">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h1 class="brand-heading">The Largest Planet on Earth</h1>
-                        <p class="intro-text">Munich, Germany</p>
-                        <a href="#music" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <a class="navbar-brand" href="#page-top"><img id="logo" src="img/logo_white.png"></a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+        Menu <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#music">Musik</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#live">Live</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#news">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#media">Medien</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Kontakt</a>
+            </li>
 
-    <!-- About Section -->
-    <section id="music" class="content-section text-center">
+        </ul>
+    </div>
+</nav>
+
+<!-- Intro Header -->
+<header class="masthead">
+    <div class="intro-body">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-
-                    <h2>Musik</h2>
-                    <iframe width="100%" height="265" scrolling="no" frameborder="no" src="https://www.reverbnation.com/widget_code/html_widget/artist_5601928?widget_id=55&pwc[included_songs]=1&context_type=page_object&spoid=artist_5601928&pwc[size]=small&pwc[color]=dark" style="width:0px;min-width:100%;max-width:100%;"></iframe>
-
+                    <h1 class="brand-heading">The Largest Planet on Earth</h1>
+                    <p class="intro-text">München</p>
+                    <a href="#music" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</header>
 
-    <!-- Download Section -->
-    <section id="live" class="download-section content-section text-center">
-        <div class="container">
+<!-- About Section -->
+<section id="music" class="content-section text-center">
+    <div class="container">
+        <div class="row">
             <div class="col-lg-8 mx-auto">
-                <h2>Live</h2>
 
-                <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="The Largest Planet on earth" data-display-local-dates="false" data-display-past-dates="true" data-auto-style="false" data-text-color="#31465C" data-link-color="#31465C" data-popup-background-color="#FFFFFF" data-background-color="#FFFFFF" data-display-limit="5" data-link-text-color="#FFFFFF"></a>
+                <h2>Musik</h2>
+                <iframe width="100%" height="265" scrolling="no" frameborder="no"
+                        src="https://www.reverbnation.com/widget_code/html_widget/artist_5601928?widget_id=55&pwc[included_songs]=1&context_type=page_object&spoid=artist_5601928&pwc[size]=small&pwc[color]=dark"
+                        style="width:0px;min-width:100%;max-width:100%;"></iframe>
 
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="content-section text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Kontakt</h2>
-                    <p>Folg uns oder schick uns eine Mail</p>
-                    <ul class="list-inline banner-social-buttons">
-                        <!--li class="list-inline-item">
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-spotify fa-fw"></i> <span class="network-name">Spotify</span></a>
-                        </li-->
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com/thelargestplanetonearth/" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.youtube.com/channel/UC4Xr-WQGnC57Sc6zM49ca3w" class="btn btn-default btn-lg"><i class="fa fa-youtube fa-fw"></i> <span class="network-name">Youtube</span></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="mailto:thelargestplanetonearth@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">E-Mail</span></a>
-                        </li>
-                    </ul>
-                </div>
+<!-- Download Section -->
+<section id="live" class="download-section content-section text-center">
+    <div class="container">
+        <div class="col-lg-8 mx-auto">
+            <h2>Live</h2>
+
+            <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script>
+            <a class="bit-widget-initializer" data-artist-name="The Largest Planet on earth"
+               data-display-local-dates="false" data-display-past-dates="true" data-auto-style="false"
+               data-text-color="#31465C" data-link-color="#31465C" data-popup-background-color="#FFFFFF"
+               data-background-color="#FFFFFF" data-display-limit="5" data-link-text-color="#FFFFFF"></a>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- News Section -->
+<section id="news" class="content-section text-center">
+    <div class="container">
+        <div class="col-lg-8 mx-auto">
+            <h2>News</h2>
+
+            <div class="fb-page" data-href="https://www.facebook.com/thelargestplanetonearth/" data-tabs="timeline"
+                 data-width="500" data-height="500" data-small-header="true" data-adapt-container-width="true"
+                 data-hide-cover="true" data-show-facepile="false">
+                <blockquote cite="https://www.facebook.com/thelargestplanetonearth/" class="fb-xfbml-parse-ignore"><a
+                        href="https://www.facebook.com/thelargestplanetonearth/">The Largest Planet on Earth</a>
+                </blockquote>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Media Section -->
+<section id="media" class="content-section text-center" style="background-color: #222324">
+    <div class="container">
+        <div class="col-lg-8 mx-auto">
+            <h2>Fotos</h2>
+
+            <a data-flickr-embed="true"  href="https://www.flickr.com/photos/140981107@N02/albums/72157689595078885" title="The Largest Planet on Earth"><img src="https://farm5.staticflickr.com/4537/37720526774_46c55c6c95_c.jpg" width="781" height="800" alt="The Largest Planet on Earth"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+
+        </div>
+    </div>
+</section>
+
+<section id="media2" class="content-section text-center">
+    <div class="container">
+        <div class="col-lg-8 mx-auto">
+            <h2>Videos</h2>
+
+            <iframe src="https://www.youtube.com/embed/II4E9vMn1Og?playlist=https://www.youtube.com/watch?v=II4E9vMn1Og&list=PLmzO6PY_S6QRdXhdiD1jNc7E9LZRy3CDM" width="560" height="315" frameborder="0"></iframe>
+
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="content-section text-center" style="background-color: #222324">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Kontakt</h2>
+                <p>Folg uns oder schick uns eine Mail</p>
+                <ul class="list-inline banner-social-buttons">
+                    <!--li class="list-inline-item">
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-spotify fa-fw"></i> <span class="network-name">Spotify</span></a>
+                    </li-->
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/thelargestplanetonearth/" class="btn btn-default btn-lg"><i
+                                class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.youtube.com/channel/UC4Xr-WQGnC57Sc6zM49ca3w"
+                           class="btn btn-default btn-lg"><i class="fa fa-youtube fa-fw"></i> <span
+                                class="network-name">Youtube</span></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="mailto:thelargestplanetonearth@gmail.com" class="btn btn-default btn-lg"><i
+                                class="fa fa-envelope fa-fw"></i> <span class="network-name">E-Mail</span></a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
+<!-- Custom scripts for this template -->
+<script src="js/grayscale.min.js"></script>
 
 </body>
 
