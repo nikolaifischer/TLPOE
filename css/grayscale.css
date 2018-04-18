@@ -273,4 +273,13 @@ body {
   top: 0 !important;
   transition-delay: 50ms; }
 
+.cryptoButtons{
+  background: black !important;
+  color: white !important;
+  max-width: 150px;
+}
+.buttonContainer{
+  max-width: 105px;
+}
+
 /*# sourceMappingURL=grayscale.css.map */
